@@ -22,7 +22,8 @@ namespace JWTWebTemplate.API.Extensions
         /// </summary>
         /// <example>
         /// For reading on how to scaffold Identity pages, see:
-        ///     https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-3.1&tabs=visual-studio#scaffold-identity-into-an-mvc-project-with-authorization
+        ///     https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity
+        ///     Note: Be sure to check the relevant section for your needs.
         ///
         /// For documentation on Identity configuration, see:
         ///     https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-configuration?view=aspnetcore-3.1
