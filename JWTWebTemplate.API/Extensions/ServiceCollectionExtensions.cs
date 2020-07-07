@@ -20,6 +20,13 @@ namespace JWTWebTemplate.API.Extensions
         /// Configure Identity with sensible defaults for a session authenticated application.
         /// Works well for MVC or Razor Pages.
         /// </summary>
+        /// <example>
+        /// For reading on how to scaffold Identity pages, see:
+        ///     https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-3.1&tabs=visual-studio#scaffold-identity-into-an-mvc-project-with-authorization
+        ///
+        /// For documentation on Identity configuration, see:
+        ///     https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-configuration?view=aspnetcore-3.1
+        /// </example>
         public static IServiceCollection ConfigureIdentityForSession(this IServiceCollection services, IConfiguration config)
         {
             // Tell Identity which User and Role models we want to use,
