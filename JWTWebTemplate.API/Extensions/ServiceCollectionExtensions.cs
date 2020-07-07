@@ -54,6 +54,7 @@ namespace JWTWebTemplate.API.Extensions
                 options.User.RequireUniqueEmail = true;
             });
             
+            // Add cookie
             services
                 .AddAuthentication()
                 .AddCookie(o =>
@@ -62,6 +63,14 @@ namespace JWTWebTemplate.API.Extensions
                     o.LogoutPath = "/Account/Login?handler=Logout";
                     o.LoginPath = "/Account/Login";
                 });
+            
+            // Configure Cookie
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.HttpOnly = true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+                options.SlidingExpiration = true;
+            });
             
             return services;
         }
