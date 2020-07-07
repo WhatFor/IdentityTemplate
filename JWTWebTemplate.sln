@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTWebTemplate.API", "JWTWebTemplate.API\JWTWebTemplate.API.csproj", "{15B97B4D-A87C-4845-8868-5138923444D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTWebTemplate.Models", "JWTWebTemplate.Models\JWTWebTemplate.Models.csproj", "{75187566-FF8F-4053-8294-565399EADB1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B97B4D-A87C-4845-8868-5138923444D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B97B4D-A87C-4845-8868-5138923444D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B97B4D-A87C-4845-8868-5138923444D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B97B4D-A87C-4845-8868-5138923444D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75187566-FF8F-4053-8294-565399EADB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75187566-FF8F-4053-8294-565399EADB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75187566-FF8F-4053-8294-565399EADB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75187566-FF8F-4053-8294-565399EADB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
